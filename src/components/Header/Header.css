@@ -1,0 +1,126 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+    max-width: 100%;
+    padding: 0 16px;
+}
+.hamburger-and-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+.hamburger-cont {
+    padding: 0;
+}
+.hamburger-icon-cont {
+    padding: 8px;
+    margin: 0;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.hamburger-icon-cont:hover {
+    background-color: #d8d8d8;
+}
+.hamburger-icon-cont svg {
+    width: 24px;
+    height: 24px;
+    font-weight: 200;
+}
+.hamburger-icon-cont img {
+    /* border-radius: 50%; */
+}
+.logo-cont {
+    padding: 18px 16px;
+}
+.logo-icon-cont img {
+    width: 32px;
+    height: 32px;
+}
+.logo-text {
+    height: 32px;
+    font-size: 26px;
+    margin: auto;
+    vertical-align: middle;
+    margin-bottom: 8px;
+    word-spacing: 0;
+    font-weight: 900;
+    margin-left: 2px;
+}
+
+.search-cont {
+    padding: 18px 14px;
+}
+#search-input {
+    width: 550px !important;
+    height: 40px !important;
+    border-top-left-radius: 24px !important;
+    border-bottom-left-radius: 24px !important;
+}
+#search-input::placeholder {
+    position: absolute;
+    left: 0;
+    transform: translate(30%);
+}
+#search-button {
+    width: 60px;
+    border-top-right-radius: 24px !important;
+    border-bottom-right-radius: 24px !important;
+    cursor: pointer;
+}
+#search-button svg {
+    height: 20px;
+    width: 20px;
+}
+.voice-input-cont {
+    margin-left: 20px;
+}
+.voice-input {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.voice-input:hover {
+    background-color: #d8d8d8;
+}
+.voice-input svg {
+    font-size: 22px;
+}
+
+.setting-and-signin {
+    padding: 18px 14px;
+}
+.threedot-cont {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.threedot-cont:hover{
+    background-color: #d8d8d8;
+}
+.threedot-cont svg {
+    font-size: 20px;
+}
+
+.signin-cont {
+    height: 40px;
+}
+.signin-icons {
+    padding: 6px;
+    height: 40px !important;
+}
+.person-icon-cont {
+    margin-right: 6px;
+}
+.person-icon-cont svg {
+    font-size: 18px;
+}
+.oijhuuhui {
+    padding: 4px 14px;
+    border-radius: 20px;
+    border: 1px solid #d8d8d8;
+}
