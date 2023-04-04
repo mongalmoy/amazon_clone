@@ -1,6 +1,6 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
 import { Routes, Route } from 'react-router-dom';
+import Container from '../Container/Container';
 import MainPage from '../../pages/MainPage';
 import Login from '../Authenticator/Login';
 import Register from "../Authenticator/Register";
