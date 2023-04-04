@@ -7,7 +7,7 @@ import Register from "../Authenticator/Register";
 
 const RouteHandler = () => {
   return (
-    <div className='route-handler'>
+    <div className='route_handler'>
       <Routes>
         <Route element={<Login />} />
 

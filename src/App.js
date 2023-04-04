@@ -10,6 +10,7 @@ const App = () => {
       <BrowserRouter>
         <RouteHandler />
       </BrowserRouter>
+
     </>
   );
 };

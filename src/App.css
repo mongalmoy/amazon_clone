@@ -15,3 +15,6 @@ body {
     align-items: center;
     justify-content: center;
 }
+.route_handler {
+  width: 100vw;
+}
