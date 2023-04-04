@@ -6,6 +6,7 @@ const Header = () => {
   return (
     <div className="header">
       <h2>This is Header</h2>
+      <button>open side bar</button>
     </div>
   );
 };

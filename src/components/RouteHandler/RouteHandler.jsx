@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import  Container  from '../Container/Container';
 import { Routes, Route } from 'react-router-dom';
 import MainPage from '../../pages/MainPage';
 import Login from '../Authenticator/Login';
