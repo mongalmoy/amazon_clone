@@ -1,15 +1,16 @@
 import React from "react";
-import Header from "./components/Header/Header";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import SideNav from "./components/SideNav/SideNav";
+import { BrowserRouter } from "react-router-dom";
+import RouteHandler from "./components/RouteHandler/RouteHandler";
 
 const App = () => {
   console.log(window.innerWidth);
   return (
     <>
-      <Header />
-      <SideNav />
+      <BrowserRouter>
+        <RouteHandler />
+      </BrowserRouter>
     </>
   );
 };
